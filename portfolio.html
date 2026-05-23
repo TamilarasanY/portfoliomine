@@ -843,24 +843,7 @@ footer{border-top:1px solid rgba(0,180,255,.07);padding:3rem 1.5rem;text-align:c
   <div class="inn" style="position:relative">
     <div class="s-lbl rv">06 &mdash; contact.component.ts</div>
     <h2 class="s-ttl rv">Let&rsquo;s <span class="g3">Connect</span></h2>
-    <div class="f-note rv" style="line-height:2;border-color:rgba(255,107,53,.25);background:rgba(255,107,53,.05)">
-      <div style="color:var(--orange);font-weight:700;margin-bottom:.5rem;font-size:.72rem;">&#x26A0; FIX: Gmail API Insufficient Scopes Error</div>
-      <div style="color:var(--t2);font-size:.63rem;line-height:1.9;">
-        <b style="color:var(--cyan)">Step 1:</b> Go to <a href="https://emailjs.com" target="_blank" style="color:var(--blue);text-decoration:underline">emailjs.com</a> &rarr; Login &rarr; <b>Email Services</b><br/>
-        <b style="color:var(--cyan)">Step 2:</b> <b style="color:var(--orange)">DELETE</b> your existing Gmail service completely<br/>
-        <b style="color:var(--cyan)">Step 3:</b> Click <b>Add New Service</b> &rarr; Select <b>Gmail</b><br/>
-        <b style="color:var(--cyan)">Step 4:</b> Click <b>Connect Account</b> &rarr; sign in with <code style="color:var(--green)">tamil3416@gmail.com</code><br/>
-        <b style="color:var(--cyan)">Step 5:</b> On Google permission screen &rarr; click <b style="color:var(--orange)">"Advanced"</b> &rarr; <b>"Go to EmailJS"</b> &rarr; check <b>ALL checkboxes</b> &rarr; click <b>Continue</b><br/>
-        <b style="color:var(--cyan)">Step 6:</b> Copy new <code style="color:var(--cyan)">Service ID</code> &rarr; paste below in the JS<br/>
-        <b style="color:var(--cyan)">Step 7:</b> <a href="https://emailjs.com" target="_blank" style="color:var(--blue);text-decoration:underline">Email Templates</a> &rarr; Create template with variables: <code style="color:var(--cyan)">from_name, from_email, subject, message</code><br/>
-        <b style="color:var(--cyan)">Step 8:</b> Account &rarr; General &rarr; Copy <code style="color:var(--cyan)">Public Key</code><br/>
-        <br/>
-        <b style="color:var(--gold)">Then update in the &lt;script&gt; at bottom of this file:</b><br/>
-        <code style="color:var(--green)">var EJS_SVC='service_XXXXXX';</code><br/>
-        <code style="color:var(--green)">var EJS_TPL='template_XXXXXX';</code><br/>
-        <code style="color:var(--green)">var EJS_KEY='your_public_key';</code>
-      </div>
-    </div>
+    
     <div class="ct-g rv">
       <form id="cform" novalidate>
         <div class="f-grp"><label class="f-lbl" for="fn">Full Name</label><input class="f-fld" type="text" id="fn" placeholder="Your full name" required autocomplete="name"/></div>
